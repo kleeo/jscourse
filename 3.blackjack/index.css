@@ -1,0 +1,17 @@
+body {
+    background-image: url(table.jpg);
+    color: white;
+    font-family: fantasy;
+    font-size: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+h1{
+    color: goldenrod;
+    margin: inherit;
+}
+
+p{
+    margin: inherit;
+}
