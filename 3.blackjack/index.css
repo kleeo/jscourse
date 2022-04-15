@@ -1,5 +1,7 @@
 body {
     background-image: url(table.jpg);
+    background-size: cover;
+    text-align: center;
     color: white;
     font-family: fantasy;
     font-size: 50px;
@@ -12,6 +14,24 @@ h1{
     margin: inherit;
 }
 
-p{
-    margin: inherit;
+#message{
+    font-style: italic;
+}
+
+button{
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 50px;
+    border: none;
+    background-color: hsl(43, 74%, 49%);
+    color: rgb(27, 88, 78);
+    padding: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.grayed{
+    color: gray;
+    background-color: lightgray;
 }
